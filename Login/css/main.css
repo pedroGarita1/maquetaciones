@@ -1,0 +1,72 @@
+/**Login**/
+.centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+}
+.bg-body{
+    background-color: #D58936;
+}
+.color-card{
+    background-color: #A44200;
+}
+.texto-blanco{
+    color: white;
+}
+.color-boton{
+    background-color: #69140E;
+    border: #3C1518;
+}
+
+/**Navbar**/
+.fondo{
+    width: 100%;
+    background-color: #BD661B;
+}
+.img-sizes{
+    width: 30px;
+}
+.animacion:hover{
+    background-color: #3C1518;
+}
+.transparencia{
+    background-color: transparent;
+    border-color: transparent;
+}
+/**ANIMACION**/
+
+.fade-In-Down {
+    -webkit-animation-name: fade-In-Down;
+    animation-name: fade-In-Down;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fade-In-Down {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fade-In-Down {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
